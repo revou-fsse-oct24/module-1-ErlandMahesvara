@@ -1,0 +1,73 @@
+.main-container {
+    align-items: center;
+    width: 1600px;
+    margin: 15px auto;
+}
+
+header {
+    border-style: dotted;
+    border-color: red;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: black;
+    font-size: 20px;
+    margin: 0 25px;
+    text-decoration: none;
+}
+
+section.written-review {
+    border-style: dashed;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.written-review-box-1 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 10px;
+    align-items: center;
+    text-align: justify;
+    border-color: slateblue;
+    border-style: dotted;
+    width: 32%;
+    height: 400px;
+    padding: 10px;
+}
+
+img.written-book-cover {
+    height: 90%;
+    width: 97%;
+}
+
+.written-review-box-2 {
+    margin: 0px;
+    padding: 0%;
+}
+
+.written-book-title,
+.written-book-author {
+    margin: 0px;
+}
+
+.written-review-details {
+    height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
