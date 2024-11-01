@@ -1,214 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Prose & Praise</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAPAR BANGET!</title>
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
-  <!-- BODY CONTAINER -->
-  <body class="body-container">
-    <!-- HEADER: WEB TITLE, NAVIGATION BAR -->
-    <header>
-      <h1>PROSE & PRAISE</h1>
-      <hr />
-      <ul class="navbar">
-        <li><a href="">Popular</a></li>
-        |
-        <li><a href="">Video Essay</a></li>
-        |
-        <li><a href="">Category</a></li>
-        |
-        <li><a href="">Submit Yours</a></li>
-      </ul>
-      <hr />
+  <body>
+    <header class="header">
+      <h1>Food's Diary</h1>
+      <p>A diary of the latest food I've eaten.</p>
     </header>
-    <!-- MAIN: MOST PRAISED, VIDEO ESSAY, CATEGORY, SUBMIT YOURS -->
-    <MAIN>
-      <!-- MOST PRAISED -->
-      <section class="written-review">
-        <h2>Most Praised</h2>
-        <div class="written-review-box-1">
-          <img
-            class="written-book-cover"
-            src="images/book-cover-1.jpg"
-            alt=""
-          />
-          <div class="written-review-box-2">
-            <h3 class="written-book-title">A Game of Thrones</h3>
-            <p class="written-book-author">George R. R. Martin</p>
-            <p class="written-review-details">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+
+    <nav class="nav">
+      <a href="#latest">Latest</a>
+      <a href="#vlog">Vlog</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Latest</h2>
+      <div class="box-container">
+      <div class="box">
+        <img
+          src="images/gambar-1.jpeg"
+          alt="Martabak Manis"
+          class="box-image"
+        />
+        <div class="box-content">
+          <h3>Martabak Manis</h3>
+          <div class="box-tags">
+            <span class="tag">Sweet</span>
+            <span class="tag">What</span>
           </div>
-        </div>
-        <div class="written-review-box-1">
-          <img
-            class="written-book-cover"
-            src="images/book-cover-2.jpg"
-            alt=""
-          />
-          <div class="written-review-box-2">
-            <h3 class="written-book-title">Crime and Punishment</h3>
-            <p class="written-book-author">Fyodor Dostoevsky</p>
-            <p class="written-review-details">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
-        <div class="written-review-box-1">
-          <img
-            class="written-book-cover"
-            src="images/book-cover-3.jpg"
-            alt=""
-          />
-          <div class="written-review-box-2">
-            <h3 class="written-book-title">All the Light We Cannot See</h3>
-            <p class="written-book-author">Anthony Doerr</p>
-            <p class="written-review-details">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- VIDEO ESSAY -->
-      <section class="video-essay">
-        <h2>Video Essay</h2>
-        <div class="video-review-box-1">
-          <h3 class="video-review-title">Video Title</h3>
-          <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
-          <p class="video-review-details"></p>
-        </div>
-        <div class="video-review-box-1">
-          <h3 class="video-review-title">Video Title</h3>
-          <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
-          <p class="video-review-details"></p>
-        </div>
-      </section>
-      <!-- GENRE -->
-      <section class="genre">
-        <h2>Genre</h2>
-      </section>
-      <!-- SUBMIT YOURS -->
-      <section class="submit-yours"></section>
-      <h2>Submit Yours</h2>
-      <div class="submit-yours-box-1">
-        <img src="" alt="" />
-        <div class="submit-yours-box-2">
-          <img src="" alt="" height="435" width="315" /> <br />
-          <br />
-          <form action="" method="post">
-            <input
-              type="text"
-              name="your-review-book-title"
-              placeholder="What is the title of the book you want to review?"
-            />
-            <br />
-            <br />
-            <input
-              type="checkbox"
-              id="your-review-genre-1"
-              name="your-review-genre-1"
-              value="Art"
-            />
-            <label for="your-review-genre-1">Art</label>
-            <input
-              type="checkbox"
-              id="your-review-genre-2"
-              name="your-review-genre-2"
-              value="Biography"
-            />
-            <label for="your-review-genre-2">Biography</label>
-            <input
-              type="checkbox"
-              id="your-review-genre-3"
-              name="your-review-genre-3"
-              value="Children's"
-            />
-            <label for="your-review-genre-3">Children's</label>
-            <input
-              type="checkbox"
-              id="your-review-genre-4"
-              name="your-review-genre-4"
-              value="Classics"
-            />
-            <label for="your-review-genre-4">Classics</label>
-            <input
-              type="checkbox"
-              id="your-review-genre-5"
-              name="your-review-genre-5"
-              value="Comics"
-            />
-            <label for="your-review-genre-5">Comics</label>
-            <input
-              type="checkbox"
-              id="your-review-genre-6"
-              name="your-review-genre-6"
-              value="Fantasy"
-            />
-            <label for="your-review-genre-6">Fantasy</label>
-            <input
-              type="checkbox"
-              id="your-review-genre-7"
-              name="your-review-genre-7"
-              value="Fiction"
-            />
-            <label for="your-review-genre-7">Fiction</label>
-            <input
-              type="checkbox"
-              id="your-review-genre-8"
-              name="your-review-genre-8"
-              value="History"
-            />
-            <label for="your-review-genre-8">History</label> <br />
-            <br />
-            <textarea
-              name="your-review-details"
-              id="your-review-details"
-              placeholder="Tell us how you feel about this book!"
-              cols="35"
-              rows="10"
-            ></textarea>
-          </form>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat..
+          </p>
         </div>
       </div>
-    </MAIN>
+
+      <div class="box">
+        <img src="images/gambar-2.jpeg" alt="Sayur Bening" class="box-image" />
+        <div class="box-content">
+          <h3>Sayur Bening</h3>
+          <div class="box-tags">
+            <span class="tag">Hot</span>
+            <span class="tag">What?</span>
+          </div>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/gambar-3.jpeg" alt="What Is This?" class="box-image" />
+        <div class="box-content">
+          <h3>What Is This?</h3>
+          <div class="box-tags">
+            <span class="tag">Hot</span>
+            <span class="tag">Sweet</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat..
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/gambar-4.jpg" alt="Burger" class="box-image" />
+        <div class="box-content">
+          <h3>Cheese Burger</h3>
+          <div class="box-tags">
+            <span class="tag">What?</span>
+            <span class="tag">Sour</span>
+          </div>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/gambar-5.jpg" alt="Tahu Tek" class="box-image" />
+        <div class="box-content">
+          <h3>Tahu Tek</h3>
+          <div class="box-tags">
+            <span class="tag">Sour</span>
+            <span class="tag">Sweet</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat..
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="images/gambar-6.jpg" alt="Sayur Asem" class="box-image" />
+        <div class="box-content">
+          <h3>Sayur Asem</h3>
+          <div class="box-tags">
+            <span class="tag">What?</span>
+            <span class="tag">Hot</span>
+          </div>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <section class="forms">
+      <h2 class="form-news">Follow My Update!</h2>
+      <form action="">
+        <input type="text" class="name-first" placeholder="First Name" /> 
+        <input type="text" class="name-last" placeholder="Last Name" />
+        <input type="email" class="email" placeholder="E-mail" />
+        <input
+          type="checkbox"
+          class="tags-1"
+          id="tags-1"
+          name="tags-1"
+          value="tags-1"
+        />
+        <label for="tags-1">Sweet</label>
+        <input
+          type="checkbox"
+          class="tags-2"
+          id="tags-2"
+          name="tags-2"
+          value="tags-2"
+        />
+        <label for="tags-2">Hot</label>
+        <input
+          type="checkbox"
+          class="tags-3"
+          id="tags-3"
+          name="tags-3"
+          value="tags-3"
+        />
+        <label for="tags-3">Sour</label>
+        <input
+          type="checkbox"
+          class="tags-4"
+          id="tags-4"
+          name="tags-4"
+          value="tags-4"
+        />
+        <label for="tags-4">What?</label>
+        <input
+          type="checkbox"
+          class="tags-5"
+          id="tags-5"
+          name="tags-5"
+          value="tags-5"
+        />
+        <label for="tags-5">Sweet</label>
+        <input
+          type="checkbox"
+          class="tags-6"
+          id="tags-6"
+          name="tags-6"
+          value="tags-6"
+        />
+        <label for="tags-6">Hot</label>
+        <input
+          type="checkbox"
+          class="tags-7"
+          id="tags-7"
+          name="tags-7"
+          value="tags-7"
+        />
+        <label for="tags-7">Sour</label>
+        <input
+          type="checkbox"
+          class="tags-8"
+          id="tags-8"
+          name="tags-8"
+          value="tags-8"
+        />
+        <label for="tags-8">What?</label>
+      </form>
+    </section>
+
+    <!-- <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>
+            We specialize in creating unforgettable travel experiences for
+            adventure seekers worldwide.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: info@adventure.com<br />Phone: (555) 123-4567</p>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <p>
+            Stay connected on social media for the latest updates and travel
+            inspiration.
+          </p>
+        </div>
+      </div>
+    </footer> -->
   </body>
 </html>
